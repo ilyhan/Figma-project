@@ -1,3 +1,55 @@
-.div{
-padding: 10px;
+body, header, main, footer, img {
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background: #222021;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+header{
+  position: relative;
+  height: 1080px;
+  width: 1900px;
+}
+.background-img-absolute{
+  position: absolute;
+  z-index: -156165;
+}
+.logo-img{
+  margin-left: 102px;
+  margin-top: 50px;
+}
+.navigation-list{
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 73px;
+  margin-right: 212px;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+a{
+   text-decoration: none;
+   color: #F5F5F5;
+}
+nav ul li{
+  color: white;
+  font-size: 22px;
+}
+.about-compani{
+  position: absolute;
+  width: 1406px;
+  height: 714px;
+  background: #1E0C06;
+  left:495px;
+  top:218px;
+  border-radius: 30px 0px 0px 30px;
+  filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
 }
