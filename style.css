@@ -9,18 +9,26 @@ body{
   font-family: 'Inter', sans-serif;
 }
 header{
+  height: 100vh;
+  width: 95vw;
+}
+.header{
   position: relative;
-  height: 1080px;
-  width: 1900px;
+  width: 1440px;
+  margin: 0 auto;
 }
 .background-img-absolute{
   position: absolute;
   z-index: -156165;
+  filter: drop-shadow(-10px 0px 15px rgba(245, 245, 245, 0.17));
+
 }
+
 .logo-img{
   margin-left: 102px;
   margin-top: 50px;
 }
+
 .navigation-list{
   display: flex;
   width: 650px;
@@ -29,27 +37,31 @@ header{
   margin: 73px;
   margin-right: 212px;
 }
+
 .float-left{
   float: left;
 }
+
 .float-right{
   float: right;
 }
+
 a{
    text-decoration: none;
    color: #F5F5F5;
 }
+
 nav ul li{
   color: white;
   font-size: 22px;
 }
+
 .about-compani{
   position: absolute;
-  width: 1406px;
-  height: 714px;
+  width: 1030px;
+  height: 600px;
   background: #1E0C06;
-  left:495px;
-  top:218px;
-  border-radius: 30px 0px 0px 30px;
-  filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
-}
+  left:395px;
+  top:240px;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 32px rgba(245, 245, 245, 0.17));
