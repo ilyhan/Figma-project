@@ -35,7 +35,6 @@ header{
   justify-content: space-between;
   list-style-type: none;
   margin: 73px;
-  margin-right: 212px;
 }
 
 .float-left{
@@ -47,7 +46,7 @@ header{
 }
 
 a{
-   text-decoration: none;
+  text-decoration: none;
    color: #F5F5F5;
 }
 
@@ -58,10 +57,69 @@ nav ul li{
 
 .about-compani{
   position: absolute;
-  width: 1030px;
-  height: 600px;
+  width: 1230px;
+  height: 714px;
   background: #1E0C06;
-  left:395px;
-  top:240px;
+  left:195px;
+  top:200px;
   border-radius: 30px;
   filter: drop-shadow(0px 4px 32px rgba(245, 245, 245, 0.17));
+}
+.title{
+  float: left;
+  margin-left: 50px;
+  margin-top: 75px;
+  max-width: 665px;
+
+}
+
+.title h1{
+  font-family: 'KyivType Sans' ;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 104.4%;
+  font-stretch: ultra-expanded;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+}
+
+.assortment{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  color: #FFDBBB;
+  padding-left: 12px;
+}
+
+.border{
+  border-right: 1px solid #f5f5f5;
+  padding-right: 110px;
+  height: auto;
+  padding-bottom: 58px;
+}
+
+.Order-btn{
+  padding: 11px 70px;
+  background-color: #728BAD;
+  border-radius: 42px;
+  font-size: 30px;
+}
+
+.title-gallery{
+  float: right;
+  width: 565px;
+  margin-top: 40px;
+}
+
+.title-gallery img{
+  display: block;
+}
+.img-1,.img-3{
+  padding-left: 280px;
+}
+.img-2{
+  padding-left: 20px;
+}
