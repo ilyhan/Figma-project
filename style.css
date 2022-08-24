@@ -159,3 +159,34 @@ main{
   justify-content: space-between;
   margin: 0 auto;
 }
+
+.advantages span h3{
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+justify-content: center;
+margin: 39px 80px 39px 0px;
+}
+
+
+
+.advantages-img{
+  border-radius: 42px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+
+.advantages ul li{
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 1.5px;
+  margin-bottom: 24px;
+}
+
+li:second-line{
+  margin: 50px;
+}
